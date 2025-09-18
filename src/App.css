@@ -1,0 +1,84 @@
+@import url("./fonts.css");
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  text-transform: capitalize !important;
+  font-family: ubuntu, zain;
+}
+
+body {
+  background-color: #223 !important;
+  color: #fff !important;
+}
+
+.innerContent {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  .counter {
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .incHate {
+    button {
+      background-color: transparent;
+      border: none;
+      animation: redTri 1s infinite linear;
+
+      svg {
+        font-size: 50px;
+        transform: rotate(180deg);
+        color: #fd0000;
+      }
+    }
+  }
+}
+
+.reminder {
+  position: fixed;
+  top: 15px;
+  left: 10px;
+  width: fit-content;
+  background-color: #fd0000;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+@keyframes redTri {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(10px);
+  }
+
+  50% {
+    transform: translateY(15px);
+  }
+
+  75% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    font-size: 14px;
+  }
+}
