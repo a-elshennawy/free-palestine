@@ -20,13 +20,14 @@ body {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -30%);
+
   .counter {
     width: fit-content;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     color: #fff;
-    padding: 15px;
+    padding: 20px 10px;
     border-radius: 10px;
   }
 
