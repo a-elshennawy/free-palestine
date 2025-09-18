@@ -1,0 +1,25 @@
+[
+  { "text": "أكره إسرائيل", "counterMessage": "عداد كراهية إسرائيل" },
+  { "text": "i hate israel", "counterMessage": "hatred counter for israel" },
+  {
+    "text": "Ich hasse Israel",
+    "counterMessage": "Hass gegen Israel bekämpfen"
+  },
+  {
+    "text": "Je déteste Israël",
+    "counterMessage": "compteur de haine envers Israël"
+  },
+  {
+    "text": "Odio a Israel",
+    "counterMessage": "contador de odio contra Israel"
+  },
+  {
+    "text": "私はイスラエルが嫌いです",
+    "counterMessage": "イスラエルに対する憎悪を測る指標"
+  },
+  {
+    "text": "eu odeio Israel",
+    "counterMessage": "contador de ódio por Israel"
+  },
+  { "text": "אני שונא את ישראל", "counterMessage": "מונה שנאה לישראל" }
+]
